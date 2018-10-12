@@ -1,0 +1,61 @@
+Common++
+def getFilesAndNames(dirpath)
+def setup_multiple_data(bt, cerebro)
+def setup_platform(cerebro):
+class CommInfo_Fut_Perc_Mult(bt.CommInfoBase)
+def setup_plot()
+def split_excel_to_csv():
+def writeToCsv(filepath, data):
+def loadFromCsv(filepath):
++++Fuzzy
+def splitDataToSevenExtents(data):
+def generateAllCombinationsIndividual():
+def generateRandomRule():
+def generateRandomIndividual():
+def generateRandomPopulation(size=20):
+def buildFuzzySystem(arr, bShowPlot=False, bDebug=False):
+def getFuzzyOutput(ctrl_instance, feModel, recModel, input_val, bShowPlot=False, bDebug=False):
+def testFuzzyLogic():
+def init_roul_wheel(value_array):
+def spin(rw):
+
+class TypicalPriceMovingAverage(bt.Indicator):
+	def __init__(self):
+	def next(self):
+
+class FMASCrossOver(bt.Strategy):
+	 def calcRateOfReturn(self, value, cash, capital):
+	def getWritePath(self, ind_type, fast, slow):
+	 def getFuzzyModel(self, ind_type, fast, slow, bShowPlot = False):
+	def getFuzzyPosition(self, fuzsys, fe, rec, diffval, bShowPlot = False):
+	def getLotSize(self, modal, price, rating):
+	def setIndicator(self, ma_type, period_val, ind_type, d):
+	def log(self, txt, dt=None):
+	 def __init__(self):
+	def next(self):
+         def notify_order(self, order):
+	 def notify_trade(self, trade):
+	def stop(self):
+	
++++Main function+++
+def main(individual, bGetRating= False, plotFileName = "", bDebug=False, bFuzzyPlot=False, bSilentMode=False,bGenMaDiffFiles=False):
+
+
+
+generateRandomPopulation()
+
+++GA++
+def convert_dict(dictPop)
+def convertList(listPop)
+def select_pool(nPop)
+def select_mating_pool(new_population)
+def crossover_pop(pop,offspring_size)
+def mutation(offspring_gen):
+
+def gaPopGeneration(npopulation)
+    select_mating_pool(new_population)
+    crossover_pop(pop,offspring_size)
+    mutation(offspring_gen)
+
+pop1= generateRandomPopulation()
+newPop = convertList(gaPopGeneration(pop1))
