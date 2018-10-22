@@ -1,5 +1,5 @@
 # PortfolioU
-An automatic trading system
+An automatic trading system implementing the fuzzy logic, genetic algorithm trading system as written in this paper “Quantified moving average strategy of crude oil futures market based on fuzzy logic rules and genetic algorithms” by Xiaojia Liu, Haizhong An, Lijun Wang and Qing Guan
 
 ## Prerequisites
 * Git
